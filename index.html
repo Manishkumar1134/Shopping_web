@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopzone</title>
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container_1 {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            align-self: center;
+            margin-right: 10px;
+            
+        }
+
+        .name {
+            font-size: 90px;
+            align-self: center;
+            color: rgb(0, 0, 255);
+        }
+
+        .container_2 {
+            width: 100%;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+
+        .item {
+            height: 40px;
+            display: flex;
+            font-size: 40px;
+            align-self: center;
+
+
+
+        }
+
+        .item:hover {
+            border: 2px solid black;
+            padding: 2px;
+            box-shadow: 0px 0px 15px 4px gray;
+            border-radius: 10px;
+            background-color: rgb(79, 77, 77);
+            color: aliceblue;
+        }
+
+        .foot {
+            width: 100%;
+            margin-top: 60px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        @media only screen and (min-width: 200px) and (max-width:567px) {
+            .logo {
+                width: 30px;
+                height: 30px;
+            }
+
+            .name {
+                font-size: 30px;
+
+            }
+
+            .container_2 {
+                overflow: scroll;
+            }
+
+            .foot {         
+                margin-top: 30px;
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container_1">
+            <div class="logo">
+                <img src="shop/shop.png" width="100%" height="100%" title="Shopzone">
+            </div>
+            <div class="name">
+                <p><b>Shopzone</b></p>
+            </div>
+        </div>
+    </header>
+    <br>
+    <hr>
+    <nav>
+        <div class="container_2">
+            <div class="item"><img src="shop/grocery.png" title="click">Grocery</div>
+            <div class="item"><img src="shop/smartphone.png" title="click">Mobiles</div>
+            <div class="item"><img src="shop/woman.png" title="click">Fashion</div>
+            <div class="item"><img src="shop/gadget.png" title="click">Electronis</div>
+            <div class="item"><img src="shop/home-appliance.png" title="click">Home</div>
+            <div class="item"><img src="shop/skin-care.png" title="click">Beauty</div>
+            <div class="item"><img src="shop/bookshelf.png" title="click">Books</div>
+            <div class="item"><img src="shop/toys.png" title="click">Toys</div>
+        </div>
+    </nav>
+    <br>
+    <hr>
+    <div><img src="shop/51ovs76vmtL._SX3000_.jpg" height="auto" width="100%" alt=""></div>
+    <hr>
+    <div class="foot">
+        <footer>Copyright &copy; 2020-2021 OnlineFoodShop.All Rights are reserved
+
+        </footer>
+    </div>
+</body>
+
+</html>
